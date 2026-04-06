@@ -1,0 +1,13 @@
+[package]
+name = "simple_payments_engine"
+version = "0.1.0"
+edition = "2024"
+authors = ["SolVerve <sol.verve@protonmail.com>"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.4"
+thiserror = "2.0"
+anyhow = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
